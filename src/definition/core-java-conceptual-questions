@@ -1,0 +1,258 @@
+Please answer the below core-java Questions:
+
+
+What jdk contains or composed of and define each components?
+
+Answer : The JDK is a superset of the JRE, and contains everything that is in the JRE, plus tools such as the compilers and debuggers necessary for developing applets and applications. Note that Oracle is not the only one to provide JDK
+
+----------------------------------------------------------
+What is IDE?
+
+Answer :
+
+An integrated development environment (IDE) is a software suite that consolidates the basic tools developers need to write and test software. Typically, an IDE contains a code editor, a compiler or interpreter and a debugger that the developer accesses through a single graphical user interface (GUI). An IDE may be a standalone application, or it may be included as part of one or more existing and compatible applications.
+
+-----------------------------------------------------
+What are the IDEs available in the market to support java?
+Answer:
+
+NetBeans, Eclipse, IntelliJ IDEA Community Edition, Android Studio,Enide Studio 2014, BlueJ, jEdit, jGRASP, JSource etc
+
+--------------------------------------------------------------------------
+Explain the entire java life cycle.
+
+Answer:
+A Java program is written using either a Text Editor like Textpad or an IDE like Eclipse and is saved as a .java file. (Program.java)
+The .java file is then compiled using Java compiler and a .class file is obtained from it. (Program.class)
+The .class file is now portable and can be used to run this Java program in any platform.
+Class file (Program.class) is interpreted by the JVM installed on a particular platform. JVM is part of the JRE software.
+
+
+----------------------------------------------------
+what is class?
+Answer:
+A class is nothing but a blueprint or a template for creating different objects which defines its properties and behaviors. Java class objects exhibit the properties and behaviors defined by its class. A class can contain fields and methods to describe the behavior of an object.
+---------------------------------------------------
+What is object?
+Answer:
+Object - Objects have states and behaviors. Example: A dog has states - color, name, breed as well as behaviors -wagging, barking, eating. An object is an instance of a class. Class - A class can be defined as a template/blue print that describes the behaviors/states that object of its type support.
+
+----------------------------------
+What is the entry point of an application?
+
+In computer programming, an entry point is where control is transferred from the operating system to a computer program, at which place the processor enters a program or a code fragment and execution begins.
+In some operating systems or programming languages, the initial entry is not part of the program but of the runtime library, in which case the runtime library initializes the program and then the runtime library enters the program.
+In other cases, the program may call the runtime library before doing anything when it is entered for the first time, and, after the runtime library returns, the actual code of the program begins to execute.
+This marks the transition from load time (and dynamic link time, if present) to run time.
+
+
+-----------------------------------------------------
+Why main is static?
+
+Answer:
+This is neccesary because main() is called by the JVM before any objects are made. Since it is static it can be directly invoked via the class. Similarly, we use static sometime for user defined methods so that we need not to make objects. void indicates that the main() method being declared does not return a value.
+
+-----------------------------------------------
+What is the difference between an Interface and Abstract class?
+Answer:
+
+Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods. Abstract class and interface both can't be instantiated.
+But there are many differences between abstract class and interface that are given below.
+Abstract class	Interface
+1) Abstract class can have abstract and non-abstract methods.	Interface can have only abstract methods.
+2) Abstract class doesn't support multiple inheritance.	Interface supports multiple inheritance.
+3) Abstract class can have final, non-final, static and non-static variables.	Interface has only static and final variables.
+4) Abstract class can have static methods, main method and constructor.	Interface can't have static methods, main method or constructor.
+5) Abstract class can provide the implementation of interface.	Interface can't provide the implementation of abstract class.
+6) The abstract keyword is used to declare abstract class.	The interface keyword is used to declare interface.
+
+---------------------------------------------------------
+
+Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+
+Answer: No | just need to extends and implements in a Concrete then we can use it through Concrete Class objects.
+
+-------------------------------------------------
+
+what is Access Specifier?
+
+Answer :
+
+Access Specifiers (also known as Visibility Specifiers ) regulate access to classes, fields and methods in Java.
+These Specifiers determine whether a field or method in a class, can be used or invoked by another method in another class or sub-class.
+Access Specifiers can be used to restrict access. Access Specifiers are an integral part of object-oriented programming.
+----------------------------------------------
+
+
+What is OOP ? Define each feature of java OOP.
+
+
+Answer :
+
+OOP stands for Object Oriented Programming.
+ Object-oriented programming (OOP) refers to a type of computer programming (software design) in which programmers define
+ not only the data type of a data structure, but also the types of operations (functions) that can be applied to the data structure.
+
+ Object:  Any entity that has state and behavior is known as an object. For example: chair, pen, table, keyboard, bike etc.
+ It can be physical and logical.
+ Class:   Collection of objects is called class. It is a logical entity.
+ Inheritance: When one object acquires all the properties and behaviours of parent object i.e. known as inheritance. It provides code reusability. It is used to achieve runtime polymorphism.
+ Polymorphism: When one task is performed by different ways i.e. known as polymorphism. For example: to convense the customer differently, to draw something e.g. shape or rectangle etc.
+ In java, we use method overloading and method overriding to achieve polymorphism.
+ Abstraction: Hiding internal details and showing functionality is known as abstraction. For example: phone call, we don't know the internal processing.
+ In java, we use abstract class and interface to achieve abstraction.
+ Encapsulation:
+ Binding (or wrapping) code and data together into a single unit is known as encapsulation. For example: capsule, it is wrapped with different medicines.
+ A java class is the example of encapsulation. Java bean is the fully encapsulated class because all the data members are private here.
+
+--------------------------------------------------------------------------------
+What is API? Name list of API that you have used so far.
+Answer : Application Programing Interface  is a set of routines, protocols, and tools for building software applications.
+
+----------------------------------------------------
+Does java support multiple inheritance?
+Answer : Not Support.
+
+-----------------------------------------------
+What is method overloading and when it happens?
+
+Answer:
+A Class have multiple methods by same name but different parameters, it is known as Method Overloading.
+overloading happens at compile-time of the program.
+
+
+---------------------------------------------------------------
+What is method overriding and when it happens?
+answer:
+Method overriding is an object-oriented programming feature that enables a child class to provide different implementation for a method that is already defined and/or implemented in its parent class or one of its parent classes.
+The overriden method in the child class should have the same name, signature, and parameters as the one in its parent class.
+Method overriding happens at runtime
+
+---------------------------------------------
+
+Explain exceptions in java and how to handle it.
+Answer:
+
+Exception is an abnormal condition which occurs during the execution of a program and disrupts normal flow of the program.
+This exception must be handled properly. If it is not handled, program will be terminated abruptly.
+Exceptions in java are handled using try, catch and finally blocks.
+try block : The code or set of statements which are to be monitored for exception are kept in this block.
+catch block : This block catches the exceptions occurred in the try block.
+finally block : This block is always executed whether exception is occurred in the try block or not and occurred exception is caught in the catch block or not.
+
+
+----------------------------------------------------------
+What is static keyword in java? How it has been used in variables and methods ?
+Answer:
+Variables declared with static keyword is known as static variables.
+    Static variables gets memory on class loading.
+    Static variables are class level.
+    If we change any static variable value using a particular object then its value changed for all objects means it is common to every object of that class.
+
+    Same as static variable, static method belong to class and not to class instances.
+    A static method can access only static variables of class and invoke only static methods of the class.
+    Usually static methods are utility methods that we want to expose to be used by other classes without the need of creating an instance.
+
+---------------------------------------------------------------------------------
+What is final and how it has been used variables and methods?
+Answwer:
+In the Java programming language, the final keyword is used in several different contexts to define an entity that can only be assigned once.
+    Once a final variable has been assigned, it always contains the same value.
+    If a final variable holds a reference to an object, then the state of the object may be changed by operations on the object, but the variable will always refer to the same object (this property of final is called non-transitivity). This applies also to arrays, because arrays are objects; if a final variable holds a reference to an array, then the components of the array may be changed by operations on the array, but the variable will always refer to the same array
+    -A final variable can only be initialized once, either via an initializer or an assignment statement.
+    It does not need to be initialized at the point of declaration: this is called a "blank final" variable.
+    -A final method cannot be overridden or hidden by subclasses.This is used to prevent unexpected behavior from a subclass altering a method that may be crucial to the function or consistency of the class.
+
+------------------------------------------------------------------------
+What is final, finally and finalize?
+final:
+       final is a keyword. The variable decleared as final should be
+       initialized only once and cannot be changed. Java classes
+       declared as final cannot be extended. Methods declared as final
+       cannot be overridden.
+
+    finally:
+       finally is a block. The finally block always executes when the
+       try block exits. This ensures that the finally block is executed
+       even if an unexpected exception occurs. But finally is useful for
+       more than just exception handling - it allows the programmer to
+       avoid having cleanup code accidentally bypassed by a return,
+       continue, or break. Putting cleanup code in a finally block is
+       always a good practice, even when no exceptions are anticipated.
+
+    finalize:
+       finalize is a method. Before an object is garbage collected, the
+       runtime system calls its finalize() method. You can write system
+       resources release code in finalize() method before getting garbage
+       collected.
+-------------------------------------------------------------
+
+What is a constructor ?
+Answer :
+
+A constructor in Java is a block of code similar to a method that's called when an instance of an object is created.
+    Here are the key differences between a constructor and a method: A constructor doesn't have a return type.
+    The name of the constructor must be the same as the name of the class.
+
+
+---------------------------------------------
+What is "this" keyword in java ?
+
+Answer:
+this is a keyword in Java. It can be used inside the Method or constructor of Class. It(this) works as a reference to the current Object whose Method or constructor is being invoked. The this keyword can be used to refer to any member of the current object from within an instance Method or a constructor
+------------------------------------------------
+What is "super" keyword in java?
+Answer:
+It is used inside a sub-class method definition to call a method defined in the super class. Private methods of the super-class cannot be called. Only public and protected methods can be called by the super keyword. It is also used by class constructors to invoke constructors of its parent class.
+
+----------------------------------------------
+What is JVM stand for ?
+
+Answer :
+A Java virtual machine (JVM)
+
+--------------------------------------------
+What version of java are you using?
+
+Answer: java version "1.8.0_101"
+----------------------------------------
+What is JAR stand for ?
+
+Answer:
+JAR stands for "Java ARchive". A JAR file is basically a zip-file which contains a couple of class files and a text file containing some meta information.
+
+------------------------------------------------
+What is compile time and run time?
+answer :
+The source code must be compiled into machine code in order to become and executable program. This compilation process is referred to as compile time. A compiled program can be opened and run by a user. When an application is running, it is called runtime.
+----------------------------------------------------------
+What is heap?
+
+Answer:
+
+The heap is the runtime data area from which memory for all class instances and arrays is allocated. The heap is created on virtual machine start-up. Heap storage for objects is reclaimed by an automatic storage management system (known as a garbage collector); objects are never explicitly deallocated.
+-----------------------------------------------------
+How java manage it's memory?
+------------------------------------------------------------------
+What is the difference between String, StringBuffer and StringBuilder?
+
+answer :
+
+String is immutable  ( once created can not be changed )object  . The object created as a String is stored in the  Constant String Pool  .
+Every immutable object in Java is thread safe ,that implies String is also thread safe . String can not be used by two threads simultaneously.
+String  once assigned can not be changed.
+
+
+StringBuffer is mutable means one can change the value of the object .
+The object created through StringBuffer is stored in the heap . StringBuffer
+has the same methods as the StringBuilder , but each method in StringBuffer is
+synchronized that is StringBuffer is thread safe .
+Due to this it does not allow  two threads to simultaneously access the same method .
+Each method can be accessed by one thread at a time .But being thread safe has disadvantages
+too as the performance of the StringBuffer hits due to thread safe property . Thus  StringBuilder
+is faster than the StringBuffer when calling the same methods of each class.
+StringBuffer value can be changed , it means it can be assigned to the new value .
+
+
+StringBuilder  is same as the StringBuffer , that is it stores the object in heap and it can also be modified . The main difference between the StringBuffer and StringBuilder is that StringBuilder is also not thread safe.
+StringBuilder is fast as it is not thread safe
